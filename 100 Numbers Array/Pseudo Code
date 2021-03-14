@@ -1,0 +1,40 @@
+Problem :
+
+	Write an algorithm and draw a flowchart that will input 100 numbers and will find the number of 
+	positive numbers.
+
+
+Note :
+
+	Normally we learn C programming language at school but since we haven't made it to the arrays yet
+	I wrote it in Python programming language.
+
+
+def (Function):
+
+	array = [Random Numbers (both positive and negative included)]
+
+	swapArray = [] (To isolate the negative numbers in 'array' into another array)
+
+	iCounter = 0 (To check the negativity of each member in the 'array')
+
+	while (iCounter not 100): (To break the loop, we have to set the range with counter variable)
+
+		if (array[iCounter] < 0): (If the current number is negative)
+
+			swapArray.append(current number) (To add the current number to the swap array if it is negative)
+
+			iCounter = iCounter + 1 (To check the next element of the 'array')
+
+		else: (If the current number is not negative)
+
+			iCounter = iCounter + 1 (To check the next element of the 'array')
+
+	print(array) (To see the whole array)
+
+	print(swapArray) (To see only negative numbers)
+
+	print(len(swapArray)) (To see how many negative numbers exists)
+
+
+Function() (To run the function)
